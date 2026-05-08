@@ -8,5 +8,16 @@ const clzfriends =["musta","tashfiq"]
 
 
 friends.push(...schlfriends)
+friends.push(...clzfriends)
 
-console.log(friends)
+// console.log(friends)
+
+
+const user={name:"faiji",address:"dhaka"}
+
+const otherinfo={age:26,gender:"male"}
+
+
+const userinfo={...user,...otherinfo}
+
+console.log(userinfo)
