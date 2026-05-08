@@ -1,3 +1,5 @@
+// spread perator
+
 const friends =["rhaim","karim"]
 
 const schlfriends=["sara","jerin","tanisha"]
@@ -21,3 +23,9 @@ const otherinfo={age:26,gender:"male"}
 const userinfo={...user,...otherinfo}
 
 console.log(userinfo)
+
+
+// rest operator
+
+
+
